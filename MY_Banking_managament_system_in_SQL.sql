@@ -38,7 +38,7 @@ INSERT INTO Customers VALUES (1, 'MANISH','MANISH@GMAIL.COM','1287301754','NASHI
 ERROR at line 1:
 ORA-12899: value too large for column "HR"."CUSTOMERS"."EMAIL" (actual: 16, 
 maximum: 10) 
-
+--
 
 SQL> /
 Enter value for customerid: 1
@@ -980,8 +980,7 @@ select * from transactions1
               *
 ERROR at line 1:
 ORA-00942: table or view does not exist 
-
-
+--/
 SQL> select * from tab;
 
 TNAME                          TABTYPE  CLUSTERID                               
